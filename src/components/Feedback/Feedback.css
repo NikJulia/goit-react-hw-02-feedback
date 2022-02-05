@@ -1,0 +1,60 @@
+.Feedback {
+    width: 500px;
+    margin: 20px auto;
+    padding: 0 20px;
+    border: 15px solid #dddddd;
+    border-radius: 10px;
+    background-color: #fdfff5;
+}
+
+.Feedback__empty {
+    font-size: 18px;
+    text-align: center;
+    color: red;
+}
+
+.Feedback__header {
+    text-align: center;
+    color: #1aaa00;
+}
+
+.Feedback__buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+.Feedback__button {
+    min-width: 100px;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #406cff;
+    cursor: pointer;
+    transition: all 250ms linear;
+}
+
+.Feedback__button:hover,
+.Feedback__button:focus {
+    background-color: #a8c4ff;
+    color:#353535;
+}
+
+.Feedback__statistics {
+    padding: 15px;
+}
+
+.Feedback__statistics-item {
+    padding: 7px;
+}
+
+.Feedback__statistics-counter {
+    font-size: 18px;
+    color: #505050;
+}
